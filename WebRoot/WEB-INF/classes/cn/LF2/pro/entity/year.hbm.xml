@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cn.LF2.pro.entity.year" table="t_year">
+		<!--主键 -->
+		<id name="id" column="Id" type="integer">
+			<generator class="native"></generator>
+		</id>
+		
+		<!--普通属性 -->
+		<property name="name" type="string"></property>
+		<property name="num1" type="string"></property>
+		<property name="num2" type="string"></property>
+		<property name="num3" type="string"></property>
+		<property name="num4" type="string"></property>
+		<property name="num5" type="string"></property>
+		<property name="num6" type="string"></property>
+		<property name="num7" type="string"></property>
+		<property name="num8" type="string"></property>
+		<property name="num9" type="string"></property>
+		<property name="num10" type="string"></property>
+		<property name="num11" type="string"></property>
+		<property name="num12" type="string"></property>
+		<property name="type" type="integer"></property>
+		
+	</class>
+</hibernate-mapping>
