@@ -6,7 +6,11 @@ import javax.annotation.Resource;
 
 import cn.LF2.pro.entity.User;
 import cn.LF2.pro.service.DayService;
+import cn.LF2.pro.service.MonthService;
+import cn.LF2.pro.service.TopService;
 import cn.LF2.pro.service.UserService;
+import cn.LF2.pro.service.WeekService;
+import cn.LF2.pro.service.YearService;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
@@ -51,4 +55,12 @@ public abstract class BaseAction<T> extends ActionSupport implements ModelDriven
 	protected UserService userService;
 	@Resource
 	protected DayService dayService;
+	@Resource
+	protected MonthService monthService;
+	@Resource
+	protected TopService topService;
+	@Resource
+	protected WeekService weekService;
+	@Resource
+	protected YearService yearService;
 }

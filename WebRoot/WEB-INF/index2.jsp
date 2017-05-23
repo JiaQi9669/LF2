@@ -134,9 +134,9 @@
 						}
 					</script>
 					<div id="haha">
-						<span style="cursor:default">主馆昨天进馆人数</span>
+						<span style="cursor:default">昨天进馆人数</span>
 						<span>
-						${requestScope.num }&nbsp;人
+						<%=request.getAttribute("desc")%>&nbsp;人
 						</span>
 						<br /> 
 						

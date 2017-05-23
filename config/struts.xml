@@ -6,13 +6,15 @@
 <struts>
 	<!-- 配置 -->
 	<include file="struts_config.xml"></include>
-	<!-- 主配置-->
-	<include file="struts_main.xml"></include>
 	
  	<package name="index" extends="struts-default" namespace="/">
 		<action name="user*" class="cn.LF2.pro.action.UserAction" method="{1}">
 			<result name="file">/WEB-INF/login.jsp</result>
 			<result name="success">/WEB-INF/index2.jsp</result>
+		</action>
+		
+		<action name="index*" class="cn.LF2.pro.action.IndexAction" method="{1}">
+			<result name="index">/WEB-INF/index2.jsp</result>
 		</action>
 	</package>
 

@@ -69,7 +69,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							</a>
 							<ul class="submenu">
 							<li>
-									<a href="Baseindex2">
+									<a href="indexfindDay">
 										<i class="icon-double-angle-right"></i>
 										首页
 									</a>
