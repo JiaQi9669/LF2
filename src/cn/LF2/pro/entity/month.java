@@ -4,7 +4,7 @@ package cn.LF2.pro.entity;
  * @author JiaQi
  *
  */
-public class month {
+public class Month {
 	private Integer id;
 	private String name;
 	private Integer num1;
@@ -13,7 +13,7 @@ public class month {
 	private Integer num4;
 	private Integer num5;
 	private Integer num6;
-	private Integer type;//0为部门/1为类型/2为区域
+	private Integer type;//0为部门/1为类型/2为区域/3全部
 	
 	public Integer getId() {
 		return id;

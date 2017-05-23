@@ -4,7 +4,7 @@ package cn.LF2.pro.entity;
  * @author JiaQi
  *
  */
-public class user {
+public class User {
 	private Integer id;
 	private String name;
 	private String username;

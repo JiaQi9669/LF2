@@ -4,17 +4,17 @@
 	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="cn.LF2.pro.entity.user" table="t_user">
+	<class name="cn.LF2.pro.entity.User" table="t_user">
 		<!--主键 -->
 		<id name="id" column="Id" type="integer">
 			<generator class="native"></generator>
 		</id>
 		
 		<!--普通属性 -->
-		<property name="name" type="string"></property>
-		<property name="username" type="string"></property>
-		<property name="pass" type="string"></property>
-		<property name="role" type="integer"></property>
+		<property name="name" ></property>
+		<property name="username" ></property>
+		<property name="pass" ></property>
+		<property name="role" ></property>
 		
 	</class>
 </hibernate-mapping>

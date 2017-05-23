@@ -43,14 +43,14 @@ function myCheck()
 				</div>
 				<form action="userLogin" method="post" name="myForm">
 					<div class="con_panel">
-
 						<div class="con_input">
-							<span>用户名：</span> <input type="text" name="username"
+							<span>用户名：</span> 
+							<input type="text" name="username"
 								placeholder="学号/工号" />
 						</div>
 						<div class="con_input">
 							<span>密&nbsp;&nbsp;&nbsp;&nbsp;码：</span><input type="password"
-								name="password" placeholder="密码" />
+								name="pass" placeholder="密码" />
 						</div>
 						<input type="submit" value="登    录" class="submit-btn"
 							onclick="return myCheck()" />

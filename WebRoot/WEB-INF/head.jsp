@@ -77,7 +77,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<a data-toggle="dropdown"  class="dropdown-toggle">
 								<span class="user-info">
 									<small>欢迎光临</small>
-									${user.username }
+									${admins.name}
 								</span>
 							</a>
 						</li>

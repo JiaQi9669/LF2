@@ -9,16 +9,11 @@
 	<!-- 主配置-->
 	<include file="struts_main.xml"></include>
 	
-	<package name="index" extends="struts-default" namespace="/">
-		<!-- 公共界面跳转 -->
-		<action name="view*" class="cn.lzf.stsys.pro.action.publics.PublicAction" method="{1}">
-			<!-- index -->
-			<result name="index">/WEB-INF/view/public/index.jsp</result>
-			<!-- exit -->
-			<result name="exit">/exit.jsp</result>
-			
+ 	<package name="index" extends="struts-default" namespace="/">
+		<action name="user*" class="cn.LF2.pro.action.UserAction" method="{1}">
+			<result name="file">/WEB-INF/login.jsp</result>
+			<result name="success">/WEB-INF/index2.jsp</result>
 		</action>
-		
 	</package>
 
 </struts>    

@@ -4,7 +4,7 @@ package cn.LF2.pro.entity;
  * @author JiaQi
  *
  */
-public class day {
+public class Day {
 	private Integer id;
 	private String name;
 	private Integer num1;
@@ -22,7 +22,7 @@ public class day {
 	private Integer num13;
 	private Integer num14;
 	private Integer num15;
-	private Integer type;//0为部门/1为类型/2为区域
+	private Integer type;//0为部门/1为类型/2为区域/3全部
 	
 	
 	public Integer getId() {
