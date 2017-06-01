@@ -699,7 +699,6 @@ chart: {
     series: [<%= request.getAttribute("zxt3")%>]
 });
 
-
 	</script>
   </body>
 </html>
